@@ -1,7 +1,7 @@
 node{
     stage("SCM checkout")
     {
-        git credentialsId: 'git_credentials', url: 'https://github.com/imravi/cicd_test'
+    git credentialsId: 'git_credentials', url: 'https://github.com/imravi/cicd_test'
     }
     stage("Gradle package")
     {
